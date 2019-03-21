@@ -13,18 +13,18 @@ const mapDispatchToProps = dispatch => ({
   },
 });
 
-class Container extends Component {
+class ContainerOne extends Component {
   componentDidMount() {
 
   }
 
   render() {
     return (
-      <div className="Container">
+      <div className="container-one">
         <Example />
       </div>
     );
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Container);
+export default connect(mapStateToProps, mapDispatchToProps)(ContainerOne);
